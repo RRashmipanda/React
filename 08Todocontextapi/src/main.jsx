@@ -1,10 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+// src/index.js
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import { TodoProvider } from './context/TodoContext';
+import { CartProvider } from './context/CartContext';
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoProvider>
+      <CartProvider>
+        <App />
+      </CartProvider>
+    </TodoProvider>
   </React.StrictMode>,
-)
+  document.getElementById('root')
+);

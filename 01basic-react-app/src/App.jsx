@@ -1,13 +1,12 @@
 
+import Todo from './Components/Todo'
 
-
-function App() {
-
-
+const App = () => {
   return (
-    <h1>RASHMI PANDA</h1>
+    <div>
+      <Todo/>
+    </div>
   )
 }
 
 export default App
-  

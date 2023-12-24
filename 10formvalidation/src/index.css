@@ -1,0 +1,32 @@
+.app{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  form{
+    background-color: rgb(14, 122, 86);
+    padding: opx 60px;
+    border-radius: 10px;
+  }
+  h1{
+    color: rgb(63, 42, 17);
+    text-align: center;
+  }
+  button{
+
+     width:50%;
+     height: 50px;
+     padding: 10px;
+     border: none;
+     background-color: rgb(9, 116, 29);
+     color: aliceblue;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 18px;
+     cursor: pointer;
+     margin-top: 15px;
+     margin-bottom: 30px;
+     margin-left: 90px;
+
+  }
